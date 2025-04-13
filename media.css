@@ -1,0 +1,270 @@
+/*Mobile View*/
+@media all and (max-width:599px){
+    /*Header Area*/
+    #text-box h1{
+        font-size:25px; 
+    }
+    #text-box p{
+        font-size:12px;
+    }
+    #header_nav i{
+        display:block;
+        color:#fff;
+        font-size:22px;
+        margin:10px 20px;
+        cursor:pointer;
+    }
+    #header_nav ul{
+        display:block;
+        position:fixed;
+        background:#f44336;
+        width:200px;
+        height:100vh;
+        top:0;
+        right:-200px;
+        text-align:left;
+        z-index:1;
+        transition:all 400ms ease-in-out; 
+    }
+    #header_nav ul li{
+        padding:0 20px;
+    }
+    /*Course Area*/
+    #course_title h1{
+        font-size:30px;
+    }
+    #course_title p{
+        font-size:14px;
+    }
+    #course_row{
+        flex-direction:column;
+    }
+    /*Campus Area*/
+    #campus_area{
+        width:95%;
+    }
+    #campus_row{
+        flex-direction:column;
+    }
+    #campus_col{
+        margin:20px 0;
+    }
+    #campus_col img{
+        width:80%;
+    }
+    #layer{
+        width:80%;
+        left:10%;
+    }
+    #campus_area h1{
+        font-size:30px;
+    }
+    #campus_area p{
+        font-size:14px;
+    }
+    /*Facilities Area*/
+    #facilitie_area h1{
+        font-size:30px;
+    }
+    #facilitie_area p{
+        font-size:14px;
+    }
+    #facilite_row{
+        flex-direction:column;
+    }
+    #facilite_col img{
+        width:100%;
+    }
+    /*Testimonial Area*/
+    #testimonial_area h1{
+        font-size:30px;
+    }
+    #testimonial_area p{
+        font-weight:14px;
+    }
+    #testimonial_row{
+        flex-direction:column;
+    }
+    #testimonial_col{
+        display:block;
+        text-align:center;
+    }
+    /*Cta Area*/
+    #cta_area{
+        padding:100px 5px;
+    }
+    #cta_area h1{
+        font-size:20px;
+    }
+    /*Footer Area*/
+    #footer_area p{
+        font-size:14px;
+        text-align-last:center;
+    }
+}
+/*Tablet View*/
+@media all and (min-width:600px) and (max-width:800px){
+    /*Header Area*/
+    #header_nav ul li{
+        margin:10px 15px;
+    }
+    #text-box h1{
+        font-size:40px;
+    }
+    /*Course Area*/
+    #course_area{
+        width:80%;
+    }
+    #course_title p{
+        font-size:18px;
+    }
+    #course_row{
+        display:block;
+    }
+    #course_col{
+        height:auto;
+        padding:20px;
+    }
+    /*Campus Area*/
+    #campus_area{
+        width:80%;
+    }
+    #campus_area p{
+        font-size:18px;
+    }
+    #campus_row{
+        display:block;
+    }
+    #campus_col{
+        margin:30px;
+    }
+    #campus_col img{
+        width:100%;
+    }
+    /*Facilities Area*/
+    #facilitie_area p{
+        font-size:18px;
+    }
+    #facilite_row{
+        display:block;
+    }
+    #facilite_col img{
+        width:100%;
+    }
+    /*Testimonial Area*/
+    #testimonial_area{
+        width:100%;
+    }
+    #testimonial_area p{
+        font-size:18px;
+    }
+    #testimonial_title p{
+        font-size:14px;
+    }
+    #testimonial_col{
+        display:block;
+        text-align:center;
+    }
+    /*Cta Area*/
+    #cta_area h1{
+        font-size:28px;
+    }
+}
+/*Tablet View*/
+@media all and (min-width:801px) and (max-width:900px){
+    /*Header Area*/
+    #text-box h1{
+        font-size:50px;
+    }
+    /*Campus Area*/
+    #campus_area{
+        width:100%;
+    }
+    /*Course Area*/
+    #course_area{
+        width:95%;
+    }
+    #course_col{
+        height:220px;
+        padding:20px;
+    }
+    /*Facilities Area*/
+    #facilite_col img{
+        width:230px;
+    }
+    #facilite_col p{
+        font-size:13px;
+    }
+    /*Testimonial Area*/
+    #testimonial_area{
+        width:95%;
+    }
+    #testimonial_col{
+        display:block;
+        text-align:center;
+    }
+}
+/*Tablet View*/
+@media all and (min-width:901px) and (max-width:1000px){
+    /*Header Area*/
+    #text-box h1{
+        font-size:50px;
+    }
+    /*Campus Area*/
+    #campus_area{
+        width:100%;
+    }
+    /*Course Area*/
+    #course_area{
+        width:95%;
+    }
+    #course_col{
+        height:220px;
+        padding:20px;
+    }
+    /*Facilities Area*/
+    #facilite_col img{
+        width:270px;
+    }
+    #facilite_col p{
+        font-size:13px;
+    }
+    /*Testimonial Area*/
+    #testimonial_area{
+        width:95%;
+    }
+    #testimonial_col{
+        display:block;
+        text-align:center;
+    }
+}
+/*Desktop View*/
+@media all and (min-width:1001px) and (max-width:1100px){
+    /*Course Area*/
+    #course_area{
+        width:95%;
+    }
+    /*Campus Area*/
+    #campus_area{
+        width:95%;
+    }
+    /*Facilities Area*/
+    #facilite_col img{
+        width:300px;
+    }
+}
+/*Desktop View*/
+@media all and (min-width:1101px) and (max-width:1200px){
+    /*Course Area*/
+    #course_area{
+        width:95%;
+    }
+    /*Campus Area*/
+    #campus_area{
+        width:95%;
+    }
+    /*Facilities Area*/
+    #facilite_col img{
+        width:330px;
+    }
+}

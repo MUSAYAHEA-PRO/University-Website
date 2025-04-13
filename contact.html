@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="14000">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="author" content="Musa Yahea">
+        <meta name="description" content="Our university is very large">
+        <meta name="keywords" content="University, Our University, New York, Washigton, London">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University About Page Design-Simple Website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="Images/boxicon.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <header id="header_section">
+            <nav id="header_nav">
+                <div id="header_img">
+                    <img src="Images/logo.png" alt="Logo">
+                </div>
+                <ul id="header_ul">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </header>
+        <!--Location Section-->
+        <section id="location_section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.514260491165!2d90.36855006080029!3d23.76600831246243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1e3d63723a3%3A0x72eaf661d4327b31!2sGonobhaban!5e0!3m2!1sen!2sbd!4v1719664575282!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!--Contact Section-->
+        <section id="contact_section">
+            <div id="cts_row">
+                <div id="cts_col">
+                    <div>
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>
+                            <h5>458/7 Road, Gonobhaban Building</h5>
+                            <p>Mohammadpur, Dhaka, BD</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <h5>880+198673255875, 16975</h5>
+                            <p>Sunday to Friday, 24/7</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <h5>edufort2024@university.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div id="cts_col">
+                    <form action="#">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter your email" required>
+                        <input type="text" placeholder="Enter your subject" required>
+                        <textarea rows="10" cols="40" placeholder="Enter your message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--Footer Area-->
+        <footer id="footer_area">
+            <h4>About Us</h4>
+            <p>
+                Edufort University is a prestigious institution renowned for its innovative programs, exceptional faculty, and diverse student body,fostering academic excellence and professional growth in a vibrant learning environment.
+            </p>
+            <div id="footer_icon">
+                <i class="fa-brands fa-square-facebook" id="fb"></i>
+                <i class="fa-brands fa-square-instagram" id="inst"></i>
+                <i class="fa-brands fa-linkedin" id="link"></i>
+                <i class="fa-brands fa-square-x-twitter" id="x"></i>
+            </div>
+            <p>Please <i class="fa-regular fa-heart"></i> Support Us</p>
+        </footer>
+        <!--Javascript Area-->
+        <script src="script.js"></script>
+    </body>
+</html>
