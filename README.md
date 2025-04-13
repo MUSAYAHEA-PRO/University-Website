@@ -33,7 +33,7 @@ To run this project locally:
 
 ## 📺 Live Demo
 
-👉 [Click here to try the Quiz App](https://musayahea-pro.github.io/University-Website/)
+👉 [Click here to try the University Website](https://musayahea-pro.github.io/University-Website/)
 
 ## 📸 Screenshot
 
